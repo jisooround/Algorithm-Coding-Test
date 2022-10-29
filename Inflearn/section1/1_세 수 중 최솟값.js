@@ -14,3 +14,12 @@ function solution(a, b, c) {
 }
 
 console.log(solution(93, 22, 1));
+
+// 강사님 풀이
+function solution(a, b, c) {
+  let answer;
+  if(a<b) answer=a;
+  else answer=b;
+  if(c<answer) answer=c; 
+  return answer;
+}
